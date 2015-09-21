@@ -1,0 +1,312 @@
+@import url('http://fonts.googleapis.com/css?family=VT323');
+
+body {
+	background-color: black;
+	font-family: "VT323";
+	font-size: 14px;
+	color: white;
+	background-image: url("images/background.jpg");
+}
+
+a:link {color: white; text-decoration: none; }
+a:active {color: white; text-decoration: none; }
+a:visited {color: white; text-decoration: none; }
+a:hover {color: white; text-decoration: none; }
+
+.beta-info{
+	position: fixed;
+	left: 2%;
+	top: 2%;
+}
+
+.enter-instructions{
+	cursor: pointer;
+}
+
+.start-screen{
+	/*background-image: url("images/start-background.jpg");
+	height: 900px;*/
+}
+
+.start-hint{
+	font-size: 400%;
+	top: 50%;
+	text-align: center;;
+}
+
+.ship-instructions{
+	font-size: 70%;
+	color: gray;
+}
+
+.rec {
+	color: #545454;
+	font-size: 40%;
+}
+
+.ship img {
+	position: fixed;
+	left: 46%;
+	top: 25%;
+}
+
+.ship-up img{
+	position: fixed;
+}
+
+.ship-down img{
+	position: fixed;
+	display: none;
+}
+
+.ship-left img{
+	position: fixed;
+	display: none;
+}
+
+.ship-right img{
+	position: fixed;
+	display: none;
+}
+
+.bullet img {
+	position: fixed;
+	display: none;
+}
+
+.main{
+	display: none;
+}
+
+.instructions {
+	color: #A8A8A8;
+	font-size: 150%;
+	font-size: 300%;
+	text-align: center;
+}
+
+.title {
+	color: white;
+	font-size: 600%;
+	position: relative;
+	left: -150%;
+	text-shadow: 3px 3px gray;
+	text-align: center;
+}
+
+.title-ship{
+	position: relative;
+	left: -50%;
+	width: 100px;
+}
+
+.content{
+}
+
+.menu {
+	text-align: right;
+	color: #545454;
+	font-weight: bolder;
+	font-size: 300%;
+	position: relative;
+	right: -200%;
+}
+
+.option {
+	cursor: pointer;
+}
+
+.current-select{
+	color: white;
+}
+
+.profilePic {
+	display: none;
+	position: relative;
+	top: 36%;
+	left: -50%;
+}
+
+.profilePic img{
+	display: block;
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #292929;
+	border-radius: 25px;
+	box-shadow: 30px 30px 20px black;
+}
+
+.personalInfo {
+	display: none;
+	text-align: left;
+	color: #C7C7C7;
+	font-size: 180%;
+	position: relative;
+}
+
+.games {
+	display: none;
+	position: relative;
+	left: -50%;
+}
+
+.games-slide {
+	display: none;
+}
+
+.current-game{
+	display: block;
+}
+
+.gamesPic {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gamesPic img {
+	width: 500px;
+	height: auto;
+	box-shadow: 30px 30px 20px black;
+}
+
+#shrinkpic {
+	height: 300px;
+	width: auto;
+}
+
+#pewpic {
+	height: 250px;
+	width: auto;
+}
+
+.gamesInfo{
+	font-size: 120%;
+	color: #C7C7C7;
+}
+
+.gamesInfo2{
+	font-size: 200%;
+	color: white;
+}
+
+.gamesInfo2 img{
+	display: inline-block;
+	width: 50px;
+	height: auto;
+}
+
+.gamesInstructions {
+	text-align: center;
+	color: gray;
+	font-size: 200%;
+}
+
+.artworksPic {
+	display: none;
+	position: relative;
+	left: -50%;
+}
+
+.artworksInfo{
+	display: block;
+	color: gray;
+	font-size: 200%;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+
+.art {
+	display: none;
+	width: 500px;
+}
+
+.art img {
+	width: 100%;
+	height: auto;
+}
+
+.current-art{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #292929;
+	border-radius: 25px;
+	box-shadow: 30px 30px 20px black;
+}
+
+.programmingPic{
+	display: none;
+	position: relative;
+	left: -50%;
+}
+
+.programmingPic img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #212121;
+	border-radius: 25px;
+	box-shadow: 30px 30px 20px black;
+}
+
+.programmingInfo{
+	display: none;
+	font-size: 180%;
+	color: #C7C7C7;
+	text-align: left;
+	position: relative;
+}
+
+.contactPic {
+	display: none;
+	position: relative;
+	top: 32%;
+	left: -50%;
+}
+
+.contactPic img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #171717;
+	border-radius: 25px;
+	box-shadow: 30px 30px 20px black;
+}
+
+.contactInfo {
+	display: none;
+	text-align: center;
+	color: #C7C7C7;
+	font-size: 180%;
+}
+
+.contactprofilepic img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #292929;
+	border-radius: 25px;
+	box-shadow: 30px 30px 20px black;
+}
+
+.social img{
+	width: 40px;
+	height: auto;
+	padding: none;
+}

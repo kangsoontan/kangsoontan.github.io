@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>KS Tan (Portfolio Website)</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="main_style.css">
+	</head>
+	<body>
+		<div class = "start-screen">
+			<!--<div class = "beta-info">
+				Portfolio website [Beta]<br>
+				Known problems:<br>
+				<ul>
+					<li> Start screen - Unresponsive ship controls</li>
+					<li> Start screen - Cannot fire and move ship at the same time </li> 
+				</ul>
+			</div>-->
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-md-12">
+						<div class = "start-hint">
+							<br>
+							<div class = "ship-instructions">
+								<p> ARROW keys + SPACEBAR </p>
+							</div>
+							<br>
+							<br>
+							<br>
+							<div class = "ship">
+								<div class = "ship-up">
+									<img src = "images/ship-up.gif"></img>
+								</div>
+								<div class = "ship-down">
+									<img src = "images/ship-down.gif"></img>
+								</div>
+								<div class = "ship-left">
+									<img src = "images/ship-left.gif"></img>
+								</div>
+								<div class = "ship-right">
+									<img src = "images/ship-right.gif"></img>
+								</div>
+							</div>
+							<br>
+							<div class = "enter-instructions">
+								<p> TAP here or press ENTER to start; </p>
+							</div>
+							<div class = "rec">
+								<p> Best viewed on larger screens (ie. 1920 x 1080)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "bullet">
+				<img src = 'images/bullet.gif'></img>
+			</div>
+		</div>
+		<div class = "main">
+			<div class = "container">
+				<div class = "title-ship">
+					<img src = "images/ship-right.gif"></img>
+				</div>
+				<div class = "row">
+					<div class = "col-md-12">
+						<div class = "title">
+							<p> Games[]; Art{}; Programming()_ </p>
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-md-9">
+						<div class = "content">
+							<div class = "instructions">
+								<div class = "row">
+									<div class = "col-md-12">
+										<br>
+										<br>
+										<br>
+										<p> TAP screen or UP/DOWN arrow keys to navigate </p>
+									</div>
+								</div>
+							</div>
+							<div class = "about-me">
+								<div class = "row">
+									<div class = "col-md-6">
+										<div class = "profilePic">
+											<br>
+											<br>
+											<img src = "images/cartoonprofile.gif"></img>
+										</div>
+									</div>
+									<div class = "col-md-6">
+										<div class = "personalInfo">
+											<br>
+											<br>
+											<p> I am a Computer Science undergraduate from National University of Singapore School of Computing. I am equipped with a wide range of skills, from software engineering to Art and Design.</p>
+											<p>A builder at heart, I enjoy getting my hands dirty on challenging projects.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class = "games">
+								<div class = "row">
+									<div class = "games-slide current-game">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<br>
+												<br>
+												<img src = "images/nusgopic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2> NUSGo </h2>
+														<p> Description: A web app that connects hungry people in
+															 school and allow them to meet up for meals</p>
+														<p> Instructions: Click on/ create a marker on the map to chat
+															 and invite people for meals.</p>
+														<p> Platform: Web browser application</p>
+														<p> Development info: Developed using Node.js, Facebook SDK
+															and Google Maps, done in a 6 days development sprint.</p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<a href="http://www.nusgo.net"> CLICK HERE TO VISIT </a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class = "games-slide">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<br>
+												<br>
+												<br>
+												<img src = "images/cofounderspic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2>Co-founders of the North</h2>
+														<p> Description: Featured by SUTD Game Lab and licensed by Singapore Management University, 'CoFon' is an educational game that teaches students about business management concepts.</p>
+														<p> Instructions: Work with friends (or against them) to build or destroy buildings. Scheme your way to become the ultimate ruler of 'The North'</p>
+														<p> Platform: PC and Mac only</p>
+														<p> Development info: Build on Unity game engine, Node.js, socket.io and MySQL.</p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<p>Under development</p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class = "games-slide">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<br>
+												<img id = 'pewpic' src = "images/pewpic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2>PEW</h2>
+														<p> Description: A PvP bullet hell game! <a href = "http://nusgdg.github.io/pew">Click here</a> to visit the official site</p>
+														<p> Instructions: Hold on to your unit, dodge those bullets, try and hit your oponent.</p>
+														<p> Platform: Android mobile</p>
+														<p> Development info: Build on Unity game engine</p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<a href="http://tinyurl.com/nusgdgpew">  <img src = "images/phone_black.bmp"></img> MOBILE DOWNLOAD </a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class = "games-slide">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<img id = "shrinkpic" src = "images/shrinkpic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2>Shrink Simulator</h2>
+														<p> Description: Winning game entry for Global Game Jam 2015, a 48 hours game jam. Do you have what it takes to be a shrink?</p>
+														<p> Instructions: Be a shrink</p>
+														<p> Platform: PC only</p>
+														<p> Development info: Build on Unity game engine</p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<a href="http://globalgamejam.org/2015/games/shrink-simulator-2015"><img src = "images/laptop_black.bmp"></img>PC DOWNLOAD </a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class = "games-slide">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<br>
+												<br>
+												<img id = "bbqpic" src = "images/bbqpic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2> Happy BBQ Time </h2>
+														<p> Description: Dodge those burning coals and dirty flies!
+															Help the Mr. Marshmallow survive as long as possible on
+															the BBQ pit before he becomes CHAOTA!</p>
+														<p> Instructions: ARROW keys to move. Staying on the grill
+															and being hit by the coals cost health. Jump constantly
+															to cool your feet and gain health.</p>
+														<p> Platform: PC only </p>
+														<p> Development info: Incomplete/ Solo project/ Made using 
+															GameMaker Lite, 2013. </p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<a href="http://kstan.5gbfree.com/games/bbqme.exe"> <img src = "images/laptop_black.bmp"></img> PC DOWNLOAD </a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class = "games-slide">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<br>
+												<img src = "images/minutemousepic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2> Minute Mouse </h2>
+														<p> Description: Escape the nightmare! Guide the lab rat through the 
+															never ending maze as you race against time.</p>
+														<p> Instructions: ARROW keys to move the mouse to the centre of the
+															clock before time runs out. </p>
+														<p> Platform: PC (Windows) only </p>
+														<p> Development info: Winning entry for Gamecraft!2013, a 24-hours 
+														game jam organised by NUS Games Development Group. Made by Team 
+														Anything, using C++ (Allegro). </p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<a href="http://kstan.5gbfree.com/games/MinuteMouse.zip"> <img src = "images/laptop_black.bmp"></img> PC DOWNLOAD </a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class = "games-slide">
+										<div class = "col-md-8">
+											<div class = "gamesPic">
+												<br>
+												<br>
+												<br>
+												<img src = "images/momogachapic.png"></img>
+											</div>
+										</div>
+										<div class = "col-md-4">
+											<div class = "gamesInfo">
+												<div class = "row">
+													<div class = "gamesInfo1">
+														<h2> MomoGacha </h2>
+														<p> Description: Raise your pet and fight against enemy monsters!</p>
+														<p> Instructions: Remember to shower, feed and play with your pet!
+															Train your pet well and it will do you proud in battle! </P>
+														<p> Platform: iOS and Android </p>
+														<p> Development info: Incomplete. Group project done during NUS 
+														Games Development Group's 'Games Dev Phase 2014'. Made in Unity </p>
+													</div>
+												</div>
+												<div class = "row">
+													<div class = "gamesInfo2">
+														<a href="http://kstan.5gbfree.com/games/GachamonV100.apk"> <img src = "images/phone_black.bmp"></img> MOBILE DOWNLOAD </a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class = "row">
+									<div class = "gamesInstructions">
+										<p> LEFT and RIGHT arrow keys or SWIPE to view the next game </p>
+									</div>
+								</div>
+							</div>
+							<div class = "artworks">
+								<div class = "row">
+									<div class = "col-md-12">
+										<div class = "artworksPic">
+											<div class = "art-slideshow">
+												<div class = "art current-art">
+													<img src = "images/sketches/art1.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art2.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art3.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art4.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art5.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art6.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art7.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art8.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art9.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art10.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art11.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art12.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art13.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art14.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art15.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art16.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art17.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art18.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art19.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art20.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art21.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art22.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art23.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art24.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art25.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art26.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art27.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art28.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art29.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art30.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art31.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art32.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art33.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art34.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art35.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art36.jpg"></img>
+												</div>
+												<div class = "art">
+													<img src = "images/sketches/art37.jpg"></img>
+												</div>
+											</div>
+											<div class = "artworksInfo">
+												<p> LEFT and RIGHT arrow keys or SWIPE for next picture </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class = "codings">
+								<div class = "row">
+									<div class = "col-md-7">
+										<div class = "programmingPic">
+											<br>
+											<br>
+											<br>
+											<img src = "images/programming_anim.gif"></img>
+										</div>
+									</div>
+									<div class = "col-md-5">
+										<div class = "programmingInfo">
+											<br>
+											<h3> Languages/Frameworks </h3>
+											<ul>
+												<li> Java </li>
+												<li> Javascript </li>
+												<li> HTML + CSS </li>
+												<li> C++ </li>
+												<li> C </li>
+												<li> Unity game engine </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class = "contact">
+								<div class = "row">
+									<div class = "col-md-6">
+										<div class = "contactPic">
+											<br>
+											<img src = "images/contact.jpg"></img>
+										</div>
+									</div>
+									<div class = "col-md-6">
+										<div class = "contactInfo">
+											<br>
+											<p> String email = "tankangsoon@gmail.com"; </p>
+											<br>
+											<div class = "social">
+												<a href= "http://facebook.com/tankangsoon"> <img src = "images/facebook.png"> Facebook </a>
+												<a href = "http://instagram.com/ks_uppercut"><img src = "images/instagram.png"> Instagram </a> 
+											</div>
+											<br>
+											<br>
+											<div class = "contactprofilepic">
+												<img src = "images/profilepic.jpg"></img> 
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class = "col-md-3">
+						<br>
+						<br>
+						<div class = "menu">
+							<div class = "option">
+								<p>#about_Me</p>
+							</div>
+							<div class = "option">
+								<p>.projs{</p>
+							</div>
+							<div class = "option">
+								<p>@rtworks</p>
+							</div>
+							<div class = "option">
+								<p>:Skills/</p>
+							</div>
+							<div class = "option">
+								<p>{_onTact;</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	    <script src = "http://www.netcu.de/templates/netcu/js/jquery.touchwipe.min.js"></script>
+    	<script src="app.js"></script>
+	</body>
+</html>
